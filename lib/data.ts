@@ -40,7 +40,7 @@ export const links = [
 export const experiencesData = [
  
   {
-    title: "Front-End Developer",
+    title: "Full Stack Developer",
     location: "Ciel Technologies",
     description:
       "One of the fundamental concepts I learned was the component-based architecture of React.js. This approach enabled me to break down user interfaces into reusable and manageable pieces, leading to cleaner and more maintainable code",
