@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Muhamad Junaid Hassan | Personal Portfolio",
   description:
-    "Muhmamad Junaid Hassan is a mern-stack developer with 2 years of experience.",
+    "Muhmamad Junaid Hassan is a mern-stack developer with 10 years of experience.",
 };
 
 export default function RootLayout({
