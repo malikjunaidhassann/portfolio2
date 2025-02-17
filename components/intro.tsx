@@ -16,7 +16,11 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+    <section
+      ref={ref}
+      id="home"
+      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -61,8 +65,8 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, I'm Junaid Hassan.</span> I'm a{" "}
         <span className="font-bold">Full Stack developer</span> with{" "}
-        <span className="font-bold">5 years</span> of experience. I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
+        <span className="font-bold">10 years</span> of experience. I enjoy
+        building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
@@ -82,7 +86,8 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          Contact me here{" "}
+          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
@@ -90,7 +95,8 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          Download CV <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          Download CV{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
         {/* <a

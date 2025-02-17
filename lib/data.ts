@@ -8,8 +8,6 @@ import port1 from "@/public/port1.png";
 import port4 from "@/public/port4.png";
 import port5 from "@/public/port5.png";
 
-
-
 export const links = [
   {
     name: "Home",
@@ -38,14 +36,13 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
- 
   {
-    title: "Full Stack Developer",
-    location: "Ciel Technologies",
+    title: "Senior Software Engineer",
+    location: "Mobile Kings Silicon Valley",
     description:
-      "One of the fundamental concepts I learned was the component-based architecture of React.js. This approach enabled me to break down user interfaces into reusable and manageable pieces, leading to cleaner and more maintainable code",
-    icon: React.createElement(CgWorkAlt),
-    date: "January 2022 - March 2024",
+      "Leading client meetings to gather requirements, define project scope, and devise comprehensive work strategies for developing high-performance web applications. Overseeing the design and development of scalable, secure, and user-centric solutions, ensuring timely delivery and client satisfaction. Leveraging advanced web technologies, including HTML, CSS, JavaScript, and frameworks such as React, Angular, and Vue.js, to build sophisticated and responsive applications. Collaborating with cross-functional teams to ensure smooth integration with back-end systems and APIs. Implementing best practices in performance optimization, security, and code quality, while mentoring junior developers and guiding the team in adopting new technologies and methodologies.",
+    icon: React.createElement(FaReact),
+    date: "2021 - present",
   },
   {
     title: "Full-Stack Developer",
@@ -53,14 +50,15 @@ export const experiencesData = [
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "January 2017 - February 2022",
-  }, {
-    title: "Virtual University",
-    location: "Lahore",
+    date: "January 2018 - February 2021",
+  },
+  {
+    title: "Full Stack Developer",
+    location: "Ciel Technologies",
     description:
-      "As I start studying it got internship.Throughout the internship, I worked on a variety of projects that allowed me to apply Full Stack concepts in real-world scenarios. These projects ranged from simple components to more complex interactive web applications.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021",
+      "One of the fundamental concepts I learned was the component-based architecture of React.js. This approach enabled me to break down user interfaces into reusable and manageable pieces, leading to cleaner and more maintainable code",
+    icon: React.createElement(CgWorkAlt),
+    date: "January 2015 - March 2018",
   },
 ] as const;
 
@@ -69,7 +67,7 @@ export const projectsData = [
     title: "GlassHive",
     description:
       "In Glasshive, I developed a seamless, interactive frontend that balances aesthetics with performance. Built using React.js, the interface offers a smooth, engaging user experience that simplifies SaaS management, keeping it responsive, visually appealing, and easy to navigate for users at all levels.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", ],
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
     imageUrl: port5,
   },
   {
